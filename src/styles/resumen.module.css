@@ -1,0 +1,98 @@
+
+.contenido 
+{
+ max-width: 120rem;
+    height: auto;
+    padding: 1rem 2rem;
+    margin-bottom: 4rem;
+}
+
+.titulo 
+{
+    font-family: 'Outfit';
+    font-size: 5rem;
+    text-align: center;
+}
+.contenedorCardDatos 
+{
+    width: 90%;
+    height: auto;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -2rem auto;
+    
+}
+
+.contenedorDatos 
+{
+    width: 30rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+.contenedorCardDatos h2 
+{
+  font-size: 2rem;
+  text-align: center;
+  color: #1e1e1e;
+  font-family: 'Outfit';
+  margin-top: 0;
+}
+.contenedorCardDatos p 
+{
+    color: #1e1e1e;
+  font-family: 'Outfit';
+  text-align: center;
+}
+.contenedorDatosHerramientas 
+{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    margin-bottom: 3rem;
+} 
+.infoHerramientas 
+{
+    width: 100%;
+    height: auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 0 0 .2rem #1e1e1e;
+    border-radius: 2rem;
+}
+.infoHerramientas h4 
+{
+    font-family: 'Outfit';
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.tituloDatos 
+{
+    margin-top: -5rem;
+}
+
+.footer 
+{
+    max-width: 120rem;
+    height: 10rem;
+    background-color: #1e1e1e;
+    padding: 1rem 2rem;
+}
+.footer h2 
+{
+    color: #fff;
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 3rem;
+}
