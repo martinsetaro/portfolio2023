@@ -33,6 +33,18 @@
     text-align: center;
     font-family: 'Outfit';
 }
+@media (max-width:600px){
+    .presentacion .titulo h2 
+    {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .presentacion .titulo h3 
+    {
+        font-size: 1.2rem;
+    }
+    
+}
 .titulo h3 
 {
     color: #fff;
@@ -63,13 +75,28 @@
     margin-top: 2rem;
     margin-left: 6rem;
     transition: all .4s ease-in-out;
+    
 
+}
+@media (max-width:600px){
+    .navegacion 
+    {
+       
+        width: 10rem;
+        height: auto;
+    }
+    .navegacion .listado {
+        flex-direction: column;
+        line-height: 2rem;
+        margin-top: -1rem;
+    }
 }
 .listado 
 {
     display: flex;
     justify-content: space-around;
     list-style: none;
+      
 }
 .listado a 
 {

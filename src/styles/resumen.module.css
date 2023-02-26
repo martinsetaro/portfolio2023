@@ -13,11 +13,27 @@
     font-size: 5rem;
     text-align: center;
 }
+@media (max-width:600px){
+    .titulo 
+    {
+        font-size: 3rem;
+    }
+    .contenido
+    {
+        padding: 0;
+        
+    }
+    .contenido .contenedorCardDatos 
+    {
+        width: 100%;
+        padding: 0;
+    }
+    
+}
 .contenedorCardDatos 
 {
     width: 90%;
     height: auto;
-   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -32,7 +48,7 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    justify-content: center;
+   
     align-items: center;
     margin-top: 1rem;
 
@@ -50,6 +66,13 @@
     color: #1e1e1e;
   font-family: 'Outfit';
   text-align: center;
+}
+.contenedorCardDatos h3
+{
+    color: #1e1e1e;
+  font-family: 'Outfit';
+  text-align: center;
+  font-size: 1.5rem;
 }
 .contenedorDatosHerramientas 
 {
@@ -85,7 +108,7 @@
 .footer 
 {
     max-width: 120rem;
-    height: 10rem;
+    height: 8rem;
     background-color: #1e1e1e;
     padding: 1rem 2rem;
 }
@@ -94,5 +117,5 @@
     color: #fff;
     text-align: center;
     font-family: 'Outfit';
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
