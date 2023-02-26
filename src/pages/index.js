@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 
 
-const index = () => {
+const Index = () => {
  
   const [nav,setNav] = useState(false)
 
@@ -51,6 +51,6 @@ setNav(true)
   )
 }
 
-export default index
+export default Index
 
 
