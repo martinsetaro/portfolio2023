@@ -16,20 +16,25 @@
     background-position: center center;
     display: flex;
    justify-content: center;
+   @media (max-width:768px){
+     flex-direction: column;
+     height: 25rem;
+     
+   }
 }
 .titulo 
 {
+    width: 100%;
 color: #fff;
 font-size: 6rem;
 font-family: 'Outfit';
 @media (max-width:768px){
-    font-size: 4rem;
-    margin-top: 14rem;
-}
-@media (max-width:600px){
     font-size: 2rem;
-    margin-top: 14rem;
+    margin-top: 8rem;
+    text-align: center;
+   
 }
+
 }
 
 .cardProyectos 
@@ -44,13 +49,7 @@ font-family: 'Outfit';
     @media (max-width:1120px){
         flex-direction: column;
     }
-    @media (max-width:320px){
-        .cardImg 
-        {
-            margin-left: -1rem;
-            
-        }
-    }
+   
 
 
 }

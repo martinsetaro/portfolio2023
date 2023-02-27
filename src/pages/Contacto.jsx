@@ -1,42 +1,33 @@
 import styleScss from '../styles/contacto.module.scss';
 import style from '../styles/home.module.css';
 import Link from 'next/link';
-import React , { useState } from 'react';
 import contacto from '../../public/img/contacto1.jpg';
 import Image from 'next/image';
 import Footer from '../components/Footer';
 
 const Contacto = () => {
 
-  const [nav,setNav] = useState(false)
-
-  const mostrar = ()=>{
-  
-  setNav(true)
-  
-  }
 
 
 
   return (
     <div className={styleScss.contenedor}>
-      <div
-      onClick={mostrar} 
-      className={style.navbar}
-      >
-       { nav ? <div className={style.navegacion}>
-        <ul className={style.listado}>
+     
+      
+       
+      
+     
+      <div className={styleScss.backgroundPrincipal}>
+         <ul className={style.listado}>
           <Link href="/Proyectos"><li>Proyectos</li></Link>
           <Link href="/"><li>Inicio</li></Link>
          
         </ul>
-       </div> : null}
-      </div>
-      <div className={styleScss.backgroundPrincipal}>
         <div className={styleScss.titulo}>
           <h2>Contacto</h2>
         </div>
       </div>
+      
       <div className={styleScss.infoContacto}>
             <div className={styleScss.imagenContacto}>
               <Image src={contacto} alt="contacto" width={450} height={350}/>

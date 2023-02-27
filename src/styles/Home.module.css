@@ -1,120 +1,102 @@
-
-
-
-
-
-.backgroundPrincipal
-{
-    max-width: 120rem;
-    
+.backgroundPrincipal {
+  max-width: 120rem;
 }
-.presentacion 
-{
-    width: 100%;
-    height: 40rem;
-    background-image: url('../../public/img/backgroundPage.jpg');
-    background-size: cover;
-    display: flex;
-    justify-content: flex-end;
+.presentacion {
+  width: 100%;
+  height: 40rem;
+  background-image: url("../../public/img/backgroundPage.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.titulo {
+  width: 100%;
+  height: 20rem;
+  line-height: 2rem;
+  margin-top: 9rem;
+ 
 
 }
-.titulo 
-{
-    width: 40rem;
-    height: 20rem;
-    line-height: 2rem;
-    margin-top: 9rem;
+.titulo h2 {
+  color: #fff;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Outfit";
+  margin-bottom: 2rem;
 }
-.titulo h2 
-{
-    color: #fff;
-    font-size: 4rem;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Outfit';
+
+ 
+
+.titulo h3 {
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-family: "PiazollaV";
 }
-@media (max-width:600px){
-    .presentacion .titulo h2 
+
+
+.listado {
+    width: 20%;
+    height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+ padding-left: 8rem;
+
+ 
+}
+.listado a {
+  text-decoration: none;
+}
+
+.listado li {
+  font-family: "Outfit";
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-left: -2rem;
+  margin-right: 4rem;
+  transition: all 0.3s ease;
+  
+}
+.listado li:hover {
+  color: tomato;
+  transform: scale(1.1,1.1);
+}
+@media (max-width:768px){
+   .presentacion 
     {
-        font-size: 3rem;
-        line-height: 3rem;
+        flex-direction: column;
     }
-    .presentacion .titulo h3 
+   .presentacion .titulo h2
     {
-        font-size: 1.2rem;
+        font-size: 2.5rem;
+        width: 100%;
     }
-    
-}
-.titulo h3 
-{
-    color: #fff;
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 0;
-    font-weight: 300;
-    font-family: 'PiazollaV';
-}
-.navbar 
-{
-    width: 6rem;
-    height: 6rem;
-    background-image: url('../../public/img/menu.png');
-    background-size: cover;
-    border-radius: 100%;
-    position: absolute;
-    margin: 2rem 4rem;
-   
-    
-}
-.navegacion
-{
-   
-    width: 25rem;
-    height: 4rem;
-    margin-top: 2rem;
-    margin-left: 6rem;
-    transition: all .4s ease-in-out;
-    
-
-}
-@media (max-width:600px){
-    .navegacion 
+    .presentacion .titulo h3
+    {
+        font-size: 1.5rem;
+       
+    }
+    .presentacion .titulo
     {
        
-        width: 10rem;
-        height: auto;
+        width: auto;
     }
-    .navegacion .listado {
-        flex-direction: column;
-        line-height: 2rem;
-        margin-top: -1rem;
+    .listado 
+    {
+        width: 15rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .listado li 
+    {
+        margin-right: 0;
+        font-size: 1rem;
     }
 }
-.listado 
-{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-      
-}
-.listado a 
-{
-    text-decoration: none;
-    
-}
-
-.listado li 
-{
-    font-family: 'Outfit';
-    color: #fff;
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-left: -2rem;
-transition: all .3s ease;
-}
-.listado li:hover 
-{
-    color: tomato;
-}
-
