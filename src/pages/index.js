@@ -26,7 +26,7 @@ const Index = () => {
         
         <div className={style.titulo}>
         <h2 className="animate__animated animate__flipInX">Martin Setaro</h2>
-        <h3 className="animate__animated animate__backInDown">Desarrollador Front End</h3>
+        <h3 className="animate__animated animate__backInDown">Desarrollador Full Stack</h3>
         <h3 className="animate__animated animate__backInDown">Analista QA </h3>
         </div>
       </div>

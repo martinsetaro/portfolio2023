@@ -39,6 +39,7 @@
     justify-content: space-around;
     margin: -2rem auto;
     
+    
 }
 
 .contenedorDatos 
@@ -48,11 +49,91 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-   
+    position: relative;
     align-items: center;
     margin-top: 1rem;
+    border: .1rem solid #7d7d7d;
+    
+}
+
+.contenedorDatos img 
+{
+    position: absolute;
+    
+}
+.contenedorImagenes ,
+.imagenesTester 
+{
+    width: 80%;
+    height: 25rem;
+   
+}
+.engrane1 
+{
+    margin-left: 16.5rem;
+    margin-top: 4rem;
+    animation: eng1 ease-in 15s infinite normal forwards;
+}
+.engrane2 
+{
+    margin-left: 12.5rem;
+    margin-top: 5.5rem;
+    animation: eng2 ease-in 15s infinite normal forwards;
 
 }
+
+
+.pulso 
+{
+    animation:bounce 3s infinite linear normal forwards ;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+@keyframes eng1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes eng2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes bounce {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+
+
 .contenedorCardDatos h2 
 {
   font-size: 2rem;
@@ -89,7 +170,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    box-shadow: 0 0 .2rem #1e1e1e;
     border-radius: 2rem;
 }
 .infoHerramientas h4 
