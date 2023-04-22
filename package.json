@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next build && next export",
     "lint": "next lint"
   },
   "dependencies": {
@@ -19,6 +20,10 @@
     "sass": "^1.58.3",
     "sharp": "^0.31.3"
   },
+  "cacheDirectories": [
+    "node_modules/",
+    ".next/cache/"
+  ],
   "resolutions": {
     "cssnano-preset-simple": "3.0.0"
   },
