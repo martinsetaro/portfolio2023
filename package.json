@@ -21,5 +21,8 @@
   },
   "resolutions": {
     "cssnano-preset-simple": "3.0.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
