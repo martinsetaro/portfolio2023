@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -19,5 +18,8 @@
     "react-dom": "18.2.0",
     "sass": "^1.58.3",
     "sharp": "^0.31.3"
+  },
+  "resolutions": {
+    "cssnano-preset-simple": "3.0.0"
   }
 }
