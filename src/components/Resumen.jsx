@@ -1,11 +1,9 @@
 import React, { useEffect} from 'react'
 import style from '../styles/resumen.module.css'
-import developer from '../../public/img/developer.png';
 import programmer from '../../public/img/programmer.png';
 import testerA from '../../public/img/testerA.png';
 import engranaje from '../../public/img/engranaje.png';
 import codigo from '../../public/img/codigo.png';
-import tester from '../../public/img/tester.png'
 import Image from 'next/image'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
@@ -38,17 +36,19 @@ const Resumen = () => {
            <p>Hace más de un año comencé como Desarrollador Front end , realicé algunos proyectos y logré participar de un semillero que me brindo los conocimientos de como se desarrolla un proyecto real. Mejore mi stack y hoy tengo conocimientos de backend</p>
         <h3>Herramientas que uso como desarrollador</h3>   
         <div className={style.infoHerramientas}>
-        <h4>HTML5</h4>
-        <h4>css - sass</h4>
-        <h4>Javascript</h4>
-        <h4>React js</h4>
-        <h4>Express</h4>
-        <h4>Next js</h4>
-        <h4>React native</h4>
-        <h4>Sql</h4>
-        <h4>Git - github</h4>
-        <h4>Figma</h4>
-        <h4>Tailwind</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>HTML5</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>css - sass</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>Javascript</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>React js</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>Express</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>Next js</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>React native</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>Sql</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>Git - github</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>Figma</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>Tailwind</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>Redux</h4>
+        <h4 data-aos="zoom-out" className={style.textos}>NodeJs</h4>
 
       </div>
       </div>
@@ -64,12 +64,12 @@ const Resumen = () => {
         <p>¡El 2023 arranque con todo y decidí dedicarme también al testing para incrementar más mis conocimientos y poder realizar con mayor calidad mis proyectos , soy QA Tester!</p>
         <h3>Herramientas que utilizo como QA Tester</h3>
              <div className={style.infoHerramientas}>
-               <h4>Jira</h4>
-               <h4>postman</h4>
-               <h4>insomnia</h4>
-                <h4>selenium ide</h4>
-               <h4>cypress</h4>
-               <h4>excel</h4>
+               <h4 data-aos="zoom-out" className={style.textos}>Jira</h4>
+               <h4 data-aos="zoom-out" className={style.textos}>postman</h4>
+               <h4 data-aos="zoom-out" className={style.textos}>insomnia</h4>
+                <h4 data-aos="zoom-out" className={style.textos}>selenium ide</h4>
+               <h4 data-aos="zoom-out" className={style.textos}>cypress</h4>
+               <h4 data-aos="zoom-out" className={style.textos}>excel</h4>
             </div>
       </div>
 

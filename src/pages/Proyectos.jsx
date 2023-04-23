@@ -1,12 +1,17 @@
 import styleScss from '../styles/proyectos.module.scss';
-import style from '../styles/home.module.css'
 import Link from 'next/link';
 import ProyectoResumen from '../components/ProyectoResumen';
 import Footer from '../components/Footer'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import React, { useEffect} from 'react'
 
 const Proyectos = () => {
 
  
+  useEffect(()=>{
+    AOS.init();
+  },[])
 
 
 
@@ -15,14 +20,12 @@ const Proyectos = () => {
       
       <div className={styleScss.backgroundPrincipal}>
 
-        <ul className={style.listado}>
+        <ul className={styleScss.listado}>
           <Link href="/Contacto"><li>Contacto</li></Link>
           <Link href="/"><li>Inicio</li></Link>
         </ul>
 
-       <div className={styleScss.titulo}>
-        <h2>Proyectos</h2>
-       </div>
+       
      </div>
      <ProyectoResumen/>
      <Footer/>

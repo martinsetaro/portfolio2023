@@ -68,6 +68,46 @@
     height: 25rem;
    
 }
+@media (max-width:600px){
+    .contenedorImagenes ,
+    .imagenesTester 
+    {
+        width: 100%;
+        height: 25rem;
+       
+    }
+    
+    .contenedorImagenes img 
+    {
+        width: 85%;
+    }
+    .contenedorImagenes .pulso 
+    {
+        width: 45%;
+    }
+    .imagenesTester
+    {
+        width: 100%;
+    }
+    .imagenesTester img 
+    {
+        width: 85%;
+    }
+    .imagenesTester .engrane1,
+    .imagenesTester .engrane2 
+    {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 14rem;
+        margin-top: 5rem;
+
+    }
+    .imagenesTester .engrane2 
+    {
+        margin-left: 8rem;
+    }
+
+}
 .engrane1 
 {
     margin-left: 16.5rem;
@@ -180,6 +220,13 @@
     margin-left: 1rem;
     margin-right: 1rem;
 }
+.textos 
+{
+    background-color: #0a669f;
+    color:#fff;
+    padding: .3rem;
+    border-radius: .5rem;
+}
 .tituloDatos 
 {
     margin-top: -5rem;
@@ -198,4 +245,10 @@
     text-align: center;
     font-family: 'Outfit';
     font-size: 2.5rem;
+}
+@media(max-width:600px){
+    .footer h2 
+    {
+        font-size: 2rem;
+    }
 }
