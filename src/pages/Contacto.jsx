@@ -45,7 +45,7 @@ const Contacto = () => {
                 <Link href="https://github.com/martinsetaro"  rel="noreferrer" target="_blank">
                   <button className={styleScss.myButton}>Github</button>
                 </Link>
-                <Link href="/assets/martinsetarofullstack.pdf"  download="cvMartinSetaroFullStack"><button className={styleScss.myButton}>Descarga CV</button></Link>
+                <Link href="/assets/martinSetaroCvOk.pdf"  download="cvMartinSetaroFrontEnd"><button className={styleScss.myButton}>Descarga CV</button></Link>
                </div> 
                 
             </div>
